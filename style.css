@@ -1,5 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #003566;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003566;
+}
+
+.clockcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 420px;
+    height: 180px;
+
+    /* background: rgba(255, 255, 255, 0.3); */
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 2px solid #ff8fab;
+
+    box-shadow:
+        0 0 20px #ff8fab,
+        0 0 40px #ff4d6d;
+}
+
+#id {
+    font-size: 50px;
+    color: #ffccd5;
+    font-family: 'Arial', sans-serif;
+}
+
+#id {
+    font-size: 55px;
+    letter-spacing: 4px;
+    color: #fb6f92;
 }
